@@ -1,0 +1,33 @@
+Constants:
+
+These are constants that define the maximum number of lines, maximum and minimum bet amounts, 
+and the number of rows and columns in the slot machine.
+
+Symbol Definitions:
+
+These dictionaries define the count and value of each symbol in the slot machine. 
+For example, there are 2 "A" symbols, and each "A" symbol has a value of 5.
+
+Functions:
+
+check_winnings(columns, lines, bet, values): Checks for winning combinations in the slot machine columns and calculates the winnings.
+
+get_slot_machine_spin(rows, cols, symbols): Generates a random spin of the slot machine with the specified number of rows, columns, and symbols.
+
+print_slot_machine(columns): Prints the current state of the slot machine.
+
+deposit(): Takes user input to deposit an initial amount of money.
+
+get_number_of_lines(): Takes user input to determine the number of lines to bet on.
+
+get_bet(): Takes user input to determine the bet amount for each line.
+
+spin(balance): Simulates a spin of the slot machine, taking user inputs for the number of lines and bet amount. It also calculates and displays the results.
+
+main(): The main game loop. It initializes the balance, allows the player to play multiple rounds, and displays the final balance when the player decides to quit.
+
+
+Execution:
+
+The main() function initializes the game, prompting the player to deposit money and then repeatedly asks if the player wants to spin the slot machine. The player can enter 'q' to quit the game. The game calculates winnings and updates the player's balance accordingly.
+
