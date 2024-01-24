@@ -1,0 +1,53 @@
+1) User Input and Welcome Message:
+
+The user is prompted to input their name.
+The name is stored in the variable name.
+A welcome message is printed using the entered name.
+
+2) Initial Decision:
+
+The user is prompted to choose between going left or right.
+The input is converted to lowercase using .lower() to make the comparison case-insensitive.
+
+3) Left Path:
+
+If the user chooses to go left, another decision is presented
+
+4) Decision After Going Left:
+
+If the user chose to go left, they are now faced with the decision to walk around the river or swim across.
+
+5) Outcomes After Swimming or Walking:
+
+If the user chooses to swim, they are eaten by an alligator.
+If the user chooses to walk, they run out of water and lose the game.
+
+6) Right Path:
+
+If the user chooses to go right, another decision is presented.
+
+7) Decision After Going Right:
+
+If the user chose to go right, they are now faced with the decision to cross a wobbly bridge or head back.
+
+8) Outcomes After Crossing or Heading Back:
+
+If the user chooses to head back, they lose.
+If the user chooses to cross the bridge, they meet a stranger.
+
+9) Decision After Crossing the Bridge:
+
+If the user chooses to cross the bridge, they are faced with another decision to talk to the stranger or not.
+
+10) Outcomes After Talking or Not Talking to the Stranger:
+
+If the user talks to the stranger, they receive gold and win.
+If the user ignores the stranger, they lose.
+
+11) Invalid Choices:
+
+If the user enters an invalid option at any point, a message is printed, and they lose.
+
+12) Closing Message:
+
+A closing message is printed, thanking the user for playing the game
